@@ -1,0 +1,578 @@
+/*
+* @Author: asus
+* @Date:   2018-02-05 14:13:05
+* @Last Modified by:   asus
+* @Last Modified time: 2018-02-05 21:40:01
+*/
+body{
+	height: 1940px;
+	background-color: #f6f4f4;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.container{
+	margin: 0 auto;
+	width: 7.02rem;
+	/* border: 0.01rem solid black; */
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+/*头部*/
+.header{
+	/* 相对窗口定位 */
+	/*position: fixed;*/
+	top: 0;
+	left: 0;
+	width: 7.5rem;
+	height: 1.7rem;
+	/*z-index: 10;*/
+	background: url('../images/图层3拷贝@2x.png')
+}
+.header .beibao{
+	width: 3.27rem;
+	height: 1.03rem;
+	float: left;
+	/*background-color: red;*/
+	/*position: relative;*/
+	
+}
+.beibao img{
+	display: block;
+	position: absolute;
+	margin-left: 2.13rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+}
+
+.header .b-t{
+	width: 1.11rem;
+	height: 0.79rem;
+	/*background-color: red;*/
+	/*position: relative;*/
+	float: right;
+
+
+}
+.b-t img{
+	
+	float: right;
+	margin-right: 0.1rem;
+	margin-top: 0.1rem;
+}
+/*banner*/
+
+.ba-f{
+	width: 100%;
+	height: 3.64rem;
+	background: white;
+	box-shadow: 0.01rem 0.01rem 0.1rem 0.1rem rgba(0,0,0,0.05);
+	margin-bottom: 0.33rem;
+}
+.ba-f img{
+	float: right;
+}
+
+.ba-p{
+	width: 6.19rem;
+	height: 3.23rem;
+	/*background: blue;*/
+	float: left;
+	margin-top: -0.7rem;
+	margin-left: 0.06rem;
+}
+.ba-p img{
+	float: left;
+}
+@font-face{
+    font-family: 'abc';
+    src: url(../fonts/sanfranciscodisplay-semibold-webfont副本.ttf)
+}
+.biaoti{
+	width: 4.61rem;
+	height: 0.03rem;
+	padding-top: 3rem;
+	/*display: block;*/
+    font-family: 'abc';
+    /*background: red;*/
+
+    
+}
+.biaoti p{
+	font-size: 0.3rem;
+	color: #919191;
+	margin-left: 0.24rem;
+	margin-top: -0.2rem;
+	
+	
+}	
+
+.riqi{
+	width: 7.02rem;
+	height: 0.25rem;
+	/*background-color: red;*/
+	margin-left: 0.24rem;
+	margin-right: 0.24rem;
+	margin-top: 0.2rem;
+}
+@font-face{
+    font-family: 'a';
+    src: url(../fonts/sanfranciscodisplay-light-webfont副本.ttf)
+}
+.a1{
+	font-family: 'a';
+	font-size: 0.2rem;
+	color: #e2e2e2;
+	width: 1.41rem;
+	height: 0.25rem;
+	/*background: yellow;*/
+	letter-spacing: 0.012rem;
+
+}
+.a1 img{
+	float: left;
+	
+	margin-top: 0.06rem;
+}
+.a1 p{
+	float: right;
+}
+
+.a2{
+	font-family: 'a';
+	font-size: 0.2rem;
+	color: #e2e2e2;
+	width: 1.67rem;
+	height: 0.25rem;
+	/*background: green;*/
+	letter-spacing: 0.012rem;
+}
+.a2 p{
+	float: right;
+}
+.a3{
+	font-family: 'a';
+	font-size: 0.2rem;
+	color: #e2e2e2;
+	width: 1.72rem;
+	height: 0.25rem;
+	/*background: black;*/
+	letter-spacing: 0.012rem;
+	
+}
+.a3 p{
+	float: right;
+}
+.a3 img{
+	float: left;
+	margin-left: 0.55rem;
+	margin-top: 0.01rem;
+}
+.a4{
+	width: 1.57rem;
+	height: 0.25rem;
+	/*background: blue;*/
+}
+.lunbo{
+	width: 0.44rem;
+	height: 1.89rem;
+	/*background: red;*/
+	float: right;
+	margin-top: -1.5em;
+}
+.lunbo img{
+	float: left;
+}
+/*推荐标题*/
+.tuijian{
+	width: 4.42rem;
+	height: 0.45rem;
+	/*background: pink;*/
+	/*float: left;*/
+	margin-bottom: 0.38rem;
+	display: block;
+}
+.tuijian img{
+	float: right;
+	margin-top: 0.1rem;
+
+}
+
+/*推荐icon*/
+.icon{
+	width: 7.02rem;
+	height: 1.26rem;
+	/*background: orange;*/
+	margin-top: 0.38rem;
+	margin-left: 0.24rem;
+	
+overflow: auto;
+}
+.duan{
+	
+	width: 9.02rem;
+	height: 1.26rem;
+	
+	overflow: hidden;
+}
+.i-1{
+	width: 2.71rem;
+	height: 1.26rem;
+	/*background-color: blue;*/
+	
+}
+.i-1 img{
+	margin-left: -0.17rem;
+	margin-top: -0.12rem;
+}
+.i-2{
+	width: 2.71rem;
+	height: 1.06rem;
+	/*background-color: red;*/
+	margin-left: 0.32rem;
+	
+}
+.i-2 img{
+	margin-left: -0.17rem;
+	margin-top: -0.12rem;
+}
+.i-3{
+	width: 2.71rem;
+	height: 1.06rem;
+	/*background-color: red;*/
+	margin-left: 0.32rem;
+	
+}
+.i-3 img{
+	margin-left: -0.17rem;
+	margin-top: -0.12rem;
+}
+/*线路推荐*/
+.xianlu{
+	width: 4.42rem;
+	height: 0.45rem;
+	/*background: pink;*/
+	/*float: left;*/
+	margin-top: 0.43rem;
+	display: block;
+}
+.xianlu img{
+	float: right;
+	margin-top: 0.1rem;
+
+}
+/*加载*/
+.jiazai{
+	width: 4.52rem;
+	height: 0.36rem;
+	/*background: pink;*/
+	/*float: left;*/
+	
+	display: block;
+	margin-bottom: 0.2rem;
+}
+.jiazai img{
+	float: right;
+	margin-top: 0.1rem;
+
+}
+
+/*内容*/
+.many{
+	width: 7.5rem;
+	height: 4.39rem;
+	background: white;
+	box-shadow: 0.01rem 0.01rem 0.1rem 0.1rem rgba(0,0,0,0.05);
+	margin-bottom: 0.12rem;
+}
+/*.gren{
+	width: 5.09rem;
+	height: 1.75rem;
+	background: #7ce430;
+	float: right;
+}*/
+.picture{
+	width: 7.25rem;
+	height: 2.69rem;
+	/*background: red;*/
+	float: right;
+	
+}
+.picture img{
+	float: right;
+}
+.many .biao-t{
+	width: 7.02rem;
+	height: 0.41rem;
+	/*background-color: red;*/
+	float: left;
+	margin-top: -0.2rem;
+	font-family: "c"
+	font-size: 0.26rem;
+	color: #7e7e7e;
+}
+@font-face{
+    font-family: 'c';
+    src: url(../fonts/PingFang Bold副本.ttf)
+}
+.biao-t p{
+	width: 4.75rem;
+	height: 0.41rem;
+	font-size: 0.26rem;
+	color: #7e7e7e;
+}
+.biao-t img{
+	float: right;
+	margin-top: -0.3rem;
+}
+.read{
+	width: 7.02rem;
+	height: 0.23rem;
+	/*background-color: yellow;*/
+	float: left;
+	font-family: 'd';
+	margin-top: 0.15rem;
+}
+@font-face{
+    font-family: 'd';
+    src: url(../fonts/sanfranciscodisplay-light-webfont副本.ttf)
+}
+.read p{
+	width: 0.58rem;
+	height: 0.27rem;
+	font-size: 0.2rem;
+	color: #c9c5c5;
+	margin-left: 0.3rem;
+	margin-top: -0.05rem;
+}
+.read img{
+	width: 0.15rem;
+	height: 0.15rem;
+	float: left;
+	margin-top: -0.23rem;
+	
+}
+.re-2{
+	width: 1.34rem;
+	height: 0.23rem;
+	/*background-color:red;*/
+	float: left;
+	font-family: 'e'
+}
+.re-2 p{
+	width: 0.93rem;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	color: #979393;
+	margin-left: 0.3rem;
+	margin-top: -0.03rem;
+}
+@font-face{
+    font-family: 'e';
+    src: url(../fonts/PingFang Bold副本.ttf)
+}
+.re-2 img{
+	width: 0.15rem;
+	height: 0.15rem;
+	float: left;
+	margin-top: -0.13rem;
+	
+}
+.bai{
+	width: 0.58rem;
+	height: 0.31rem;
+	background-color: #3dcafd;
+	float: left;
+	border-radius: 0.2rem;
+	margin-top: -0.03rem;
+	font-size: 0.1574rem;
+	color: #fefefe;
+	font-weight: "f"
+
+}
+@font-face{
+    font-family: 'f';
+    src: url(../fonts/PingFang Bold副本.ttf)
+}
+.bai p{
+	margin-top: 0.03rem;
+	margin-left: 0.15rem;
+}
+
+/*内容2*/
+.many .biao-e{
+	width: 7.02rem;
+	height: 0.41rem;
+	/*background-color: red;*/
+	float: left;
+	margin-top: -0.1rem;
+	font-family: "c"
+	font-size: 0.26rem;
+	color: #7e7e7e;
+}
+@font-face{
+    font-family: 'c';
+    src: url(../fonts/PingFang Bold副本.ttf)
+}
+.biao-e p{
+	width: 4.75rem;
+	height: 0.41rem;
+	font-size: 0.26rem;
+	color: #7e7e7e;
+}
+.biao-e img{
+	float: right;
+	margin-top: -0.3rem;
+}
+.read-a{
+	width: 7.02rem;
+	height: 0.23rem;
+	/*background-color: yellow;*/
+	float: left;
+	font-family: 'd';
+	margin-top: 0.1rem;
+}
+@font-face{
+    font-family: 'd';
+    src: url(../fonts/sanfranciscodisplay-light-webfont副本.ttf)
+}
+.read-a p{
+	width: 0.58rem;
+	height: 0.27rem;
+	font-size: 0.2rem;
+	color: #c9c5c5;
+	margin-left: 0.3rem;
+	margin-top: -0.05rem;
+}
+.read-a img{
+	width: 0.15rem;
+	height: 0.15rem;
+	float: left;
+	margin-top: -0.23rem;
+	
+}
+.re-3{
+	width: 1.34rem;
+	height: 0.23rem;
+	/*background-color:red;*/
+	float: left;
+	font-family: 'e'
+}
+.re-3 p{
+	width: 0.93rem;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	color: #979393;
+	margin-left: 0.3rem;
+	margin-top: -0.03rem;
+}
+@font-face{
+    font-family: 'e';
+    src: url(../fonts/PingFang Bold副本.ttf)
+}
+.re-3 img{
+	width: 0.15rem;
+	height: 0.15rem;
+	float: left;
+	margin-top: -0.13rem;
+	
+}
+.bai-a{
+	width: 0.58rem;
+	height: 0.31rem;
+	background-color: #3dcafd;
+	float: left;
+	border-radius: 0.2rem;
+	margin-top: -0.03rem;
+	font-size: 0.1574rem;
+	color: #fefefe;
+	font-weight: "f"
+
+}
+@font-face{
+    font-family: 'f';
+    src: url(../fonts/PingFang Bold副本.ttf)
+}
+.bai-a p{
+	margin-top: 0.03rem;
+	margin-left: 0.15rem;
+}
+
+/* 底部 */
+.foot{
+	width: 7.5rem;
+	height: 1.02rem;
+	background: url(../images/形状78@2x.png);
+	background-position: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.f-a{
+	width: 1.46rem;
+	height: 1.02rem;
+	background: url(../images/,@2x.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.f-b{
+	width: 1.46rem;
+	height: 1.02rem;
+	background: url(../images/2@2x.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 1.46rem;
+	margin-top: -1rem;
+}
+.f-c{
+	width: 1.99rem;
+	height: 1.30rem;
+	background: url(../images/组25@2x.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 2.75rem;
+	margin-top: -1.35rem;
+}
+.f-d{
+	width: 1.46rem;
+	height: 1.02rem;
+	background: url(../images/组26@2x.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: -1rem;
+	float: right;
+	
+	
+
+}
+.f-e{
+	width: 1.46rem;
+	height: 1.02rem;
+	background: url(../images/ee.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: -1rem;
+	float: right;
+
+}
+
+
+
+
+
+
+
+
+
